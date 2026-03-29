@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "World Monitor",
-    "description": "Global Situation with AI Insights"
+    "title": "Arcane Watchtower",
+    "description": "Member Intelligence Terminal"
   },
   "widgets": {
     "createWithAi": "Create with AI",
@@ -1085,8 +1085,8 @@
       "skipToEnd": "Skip to end"
     },
     "pizzint": {
-      "title": "Pentagon Pizza Index",
-      "defcon": "DEFCON {{level}}",
+      "title": "Arcane Alert Level",
+      "defcon": "ARCANE {{level}}",
       "updated": "Updated {{timeAgo}}",
       "tensionsTitle": "Geopolitical Tensions",
       "source": "Source:",
@@ -1100,11 +1100,11 @@
       "minutesAgo": "{{m}}m ago",
       "hoursAgo": "{{h}}h ago",
       "defconLabels": {
-        "1": "COCKED PISTOL - MAXIMUM READINESS",
-        "2": "FAST PACE - ARMED FORCES READY",
-        "3": "ROUND HOUSE - INCREASE FORCE READINESS",
-        "4": "DOUBLE TAKE - INCREASED INTELLIGENCE WATCH",
-        "5": "FADE OUT - LOWEST READINESS"
+        "1": "CRITICAL — MAXIMUM ALERT",
+        "2": "SEVERE — HIGH THREAT POSTURE",
+        "3": "ELEVATED — INCREASED VIGILANCE",
+        "4": "GUARDED — HEIGHTENED AWARENESS",
+        "5": "BASELINE — NORMAL OPERATIONS"
       }
     },
     "strategicPosture": {

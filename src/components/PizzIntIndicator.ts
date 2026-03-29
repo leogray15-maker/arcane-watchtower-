@@ -5,9 +5,9 @@ import { h, replaceChildren } from '@/utils/dom-utils';
 const DEFCON_COLORS: Record<number, string> = {
   1: '#ff0040',
   2: '#ff4400',
-  3: '#ffaa00',
-  4: '#00aaff',
-  5: '#2d8a6e',
+  3: '#f59e0b',
+  4: '#d97706',
+  5: '#92400e',
 };
 
 export class PizzIntIndicator {

@@ -48,10 +48,10 @@
   --panel-border: #2a2a2a;
 
   /* Map */
-  --map-bg: #020a08;
-  --map-grid: #0a2a20;
-  --map-country: #0a2018;
-  --map-stroke: #0f5040;
+  --map-bg: #080604;
+  --map-grid: #1a1408;
+  --map-country: #141008;
+  --map-stroke: #3d2e0a;
 
   /* Font stack */
   --font-mono: 'SF Mono', 'Monaco', 'Cascadia Code', 'Fira Code', 'DejaVu Sans Mono', 'Liberation Mono', monospace;
@@ -95,12 +95,12 @@
   --threat-low: #22c55e;
   --threat-info: #3b82f6;
 
-  /* DEFCON levels */
+  /* Arcane Alert levels */
   --defcon-1: #ff0040;
   --defcon-2: #ff4400;
-  --defcon-3: #ffaa00;
-  --defcon-4: #00aaff;
-  --defcon-5: #2d8a6e;
+  --defcon-3: #f59e0b;
+  --defcon-4: #d97706;
+  --defcon-5: #92400e;
 
   /* Status indicators */
   --status-live: #44ff88;
@@ -401,7 +401,7 @@ canvas,
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
-  color: var(--accent);
+  color: #f59e0b;
 }
 
 .logo-mobile {
@@ -409,7 +409,7 @@ canvas,
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
-  color: var(--accent);
+  color: #f59e0b;
 }
 
 .version {

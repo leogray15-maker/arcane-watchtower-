@@ -1,4 +1,4 @@
-// Full geopolitical variant - worldmonitor.app
+// Full geopolitical variant - Arcane Watchtower
 import type { PanelConfig, MapLayers } from '@/types';
 import type { VariantConfig } from './base';
 
@@ -51,6 +51,7 @@ export const DEFAULT_PANELS: Record<string, PanelConfig> = {
   'etf-flows': { name: 'BTC ETF Tracker', enabled: true, priority: 2 },
   stablecoins: { name: 'Stablecoins', enabled: true, priority: 2 },
   monitors: { name: 'My Monitors', enabled: true, priority: 2 },
+  'arcane-brief': { name: 'Arcane Brief', enabled: true, priority: 1 },
 };
 
 // Map layers for geopolitical view
@@ -61,7 +62,7 @@ export const DEFAULT_MAP_LAYERS: MapLayers = {
 
   conflicts: true,
   bases: true,
-  cables: false,
+  cables: true,
   pipelines: false,
   hotspots: true,
   ais: false,
@@ -76,7 +77,7 @@ export const DEFAULT_MAP_LAYERS: MapLayers = {
   datacenters: false,
   protests: false,
   flights: false,
-  military: false,
+  military: true,
   natural: false,
   spaceports: false,
   minerals: false,
