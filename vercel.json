@@ -1,5 +1,4 @@
 {
-  "projectId": "arcane-watchtower",
   "ignoreCommand": "bash scripts/vercel-ignore.sh",
   "crons": [],
   "redirects": [
