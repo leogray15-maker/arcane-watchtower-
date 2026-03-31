@@ -1119,7 +1119,7 @@ export class DataLoaderManager implements AppModule {
 
     this.ctx.allNews = collectedNews;
     this.ctx.initialLoadComplete = true;
-    mountCommunityWidget();
+    // Community widget removed for Arcane Archives custom build
 
     this.ctx.map?.updateHotspotActivity(this.ctx.allNews);
 

@@ -5,17 +5,17 @@
    Theme Colors — overridden by [data-theme="light"] below
    ============================================================ */
 :root {
-  /* Backgrounds */
-  --bg: #0a0a0a;
-  --bg-secondary: #111;
-  --surface: #141414;
-  --surface-hover: #1e1e1e;
+  /* Backgrounds — Arcane Archives deep space */
+  --bg: #0a0a0f;
+  --bg-secondary: #0e0e16;
+  --surface: #12121c;
+  --surface-hover: #1a1a28;
   --surface-active: #1a1a2e;
 
-  /* Borders */
-  --border: #2a2a2a;
-  --border-strong: #444;
-  --border-subtle: #1a1a1a;
+  /* Borders — Arcane Archives subtle purple tint */
+  --border: #1e1e3a;
+  --border-strong: #2e2e5a;
+  --border-subtle: #14142a;
 
   /* Text */
   --text: #e8e8e8;
@@ -43,9 +43,9 @@
   /* Input */
   --input-bg: #1a1a1a;
 
-  /* Panels */
-  --panel-bg: #141414;
-  --panel-border: #2a2a2a;
+  /* Panels — Arcane Archives */
+  --panel-bg: #12121c;
+  --panel-border: #1e1e3a;
 
   /* Map */
   --map-bg: #080604;
@@ -398,18 +398,20 @@ canvas,
 }
 
 .logo {
+  font-family: 'Orbitron', var(--font-body);
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
-  color: #f59e0b;
+  color: #f5c842;
 }
 
 .logo-mobile {
   display: none;
+  font-family: 'Orbitron', var(--font-body);
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
-  color: #f59e0b;
+  color: #f5c842;
 }
 
 .version {
@@ -1157,10 +1159,10 @@ canvas,
   flex-direction: column;
 }
 .site-footer-name {
-  font-family: var(--font-mono, monospace);
+  font-family: 'Orbitron', var(--font-mono, monospace);
   font-size: 12px;
   font-weight: 600;
-  color: var(--text);
+  color: #f5c842;
   letter-spacing: 1px;
 }
 .site-footer-sub {
@@ -1181,7 +1183,7 @@ canvas,
   transition: color 0.15s;
 }
 .site-footer a:hover {
-  color: var(--accent);
+  color: #00d4ff;
 }
 .site-footer-copy {
   font-family: var(--font-mono, monospace);
@@ -1449,11 +1451,12 @@ body.panel-resize-active iframe {
 }
 
 .panel-title {
+  font-family: 'Orbitron', var(--font-body);
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--text);
+  color: #00d4ff;
 }
 
 /* Push the first element after header-left to the right; subsequent siblings flow via gap */
@@ -11665,10 +11668,11 @@ a.prediction-link:hover {
 }
 
 .mobile-menu-title {
+  font-family: 'Orbitron', var(--font-body);
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 2px;
-  color: var(--accent);
+  color: #f5c842;
 }
 
 .mobile-menu-close {

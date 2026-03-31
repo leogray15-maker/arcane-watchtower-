@@ -226,9 +226,6 @@ export class PanelLayoutManager implements AppModule {
             </a>
           </div>
           <span class="logo">⬡ ARCANE WATCHTOWER</span><span class="logo-mobile">⬡ WATCHTOWER</span><span class="version">v${__APP_VERSION__}</span>${BETA_MODE ? '<span class="beta-badge">BETA</span>' : ''}
-          <a href="https://arcanearchives.shop" target="_blank" rel="noopener" class="credit-link" title="Arcane Archives">
-            <span class="credit-text" style="color:#f59e0b;">arcanearchives.shop</span>
-          </a>
           <button class="mobile-settings-btn" id="mobileSettingsBtn" title="${t('header.settings')}">
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
           </button>
@@ -290,13 +287,13 @@ export class PanelLayoutManager implements AppModule {
           <span class="mobile-menu-item-icon">${getCurrentTheme() === 'dark' ? '☀️' : '🌙'}</span>
           <span class="mobile-menu-item-label">${getCurrentTheme() === 'dark' ? 'Light Mode' : 'Dark Mode'}</span>
         </button>
-        <a class="mobile-menu-item" href="https://arcanearchives.shop" target="_blank" rel="noopener">
+        <a class="mobile-menu-item" href="https://arcanearchives.netlify.app/dashboard.html" target="_blank" rel="noopener">
           <span class="mobile-menu-item-icon">⬡</span>
-          <span class="mobile-menu-item-label">Arcane Archives</span>
+          <span class="mobile-menu-item-label">Back to Dashboard</span>
         </a>
         <div class="mobile-menu-divider"></div>
         <div class="mobile-menu-footer-links">
-          <a href="https://arcanearchives.shop" target="_blank" rel="noopener">Member Portal</a>
+          <a href="https://arcanearchives.netlify.app/dashboard.html" target="_blank" rel="noopener">Dashboard</a>
         </div>
         <div class="mobile-menu-version">v${__APP_VERSION__}</div>
       </nav>
@@ -355,14 +352,14 @@ export class PanelLayoutManager implements AppModule {
         <div class="site-footer-brand">
           <span class="site-footer-icon" style="font-size:20px;">⬡</span>
           <div class="site-footer-brand-text">
-            <span class="site-footer-name" style="color:#f59e0b;">ARCANE WATCHTOWER</span>
+            <span class="site-footer-name" style="color:#f5c842;">ARCANE WATCHTOWER</span>
             <span class="site-footer-sub">v${__APP_VERSION__}</span>
           </div>
         </div>
         <nav>
-          <a href="https://arcanearchives.shop" target="_blank" rel="noopener">Member Portal</a>
+          <a href="https://arcanearchives.netlify.app/dashboard.html" target="_blank" rel="noopener">Back to Dashboard</a>
         </nav>
-        <span class="site-footer-copy">&copy; ${new Date().getFullYear()} Arcane Archives &mdash; Member Intelligence Terminal</span>
+        <span class="site-footer-copy">&copy; ${new Date().getFullYear()} The Arcane Archives &mdash; Global Intelligence Terminal</span>
       </footer>
     `;
 

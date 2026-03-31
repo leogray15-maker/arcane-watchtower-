@@ -337,10 +337,7 @@ export function renderPreferences(host: PreferencesHost): PreferencesResult {
     </div>
     <div class="us-data-mgmt-toast" id="usDataMgmtToast"></div>
   `;
-  html += `<a href="https://discord.gg/re63kWKxaz" target="_blank" rel="noopener noreferrer" class="us-discussion-link">
-    <span class="us-discussion-dot"></span>
-    <span>${t('components.community.joinDiscussion')}</span>
-  </a>`;
+  /* Discord link removed for Arcane Archives custom build */
   html += `</div></details>`;
 
   // ── Notifications group (web-only, signed-in) ──
