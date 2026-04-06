@@ -123,7 +123,9 @@ export function getApiBaseUrl(): string {
 function isWorldMonitorWebHost(hostname: string): boolean {
   return hostname === 'worldmonitor.app'
     || hostname === 'www.worldmonitor.app'
-    || hostname.endsWith('.worldmonitor.app');
+    || hostname.endsWith('.worldmonitor.app')
+    || hostname === 'arcanearchives.shop'
+    || hostname.endsWith('.arcanearchives.shop');
 }
 
 export function getConfiguredWebApiBaseUrl(): string {
@@ -223,7 +225,7 @@ function isAppOriginUrl(urlStr: string): boolean {
   try {
     const u = new URL(urlStr);
     const host = u.hostname;
-    return APP_HOSTS.has(host) || host.endsWith('.worldmonitor.app');
+    return APP_HOSTS.has(host) || host.endsWith('.worldmonitor.app') || host.endsWith('.arcanearchives.shop') || host === 'arcanearchives.shop';
   } catch {
     return false;
   }

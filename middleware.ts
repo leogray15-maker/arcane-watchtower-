@@ -16,6 +16,8 @@ const VARIANT_HOST_MAP: Record<string, string> = {
   'finance.worldmonitor.app': 'finance',
   'commodity.worldmonitor.app': 'commodity',
   'happy.worldmonitor.app': 'happy',
+  'watchtower.arcanearchives.shop': 'full',
+  'arcanearchives.shop': 'full',
 };
 
 // Source of truth: src/config/variant-meta.ts — keep in sync when variant metadata changes.
